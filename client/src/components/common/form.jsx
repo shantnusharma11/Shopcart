@@ -16,7 +16,8 @@ function CommonForm({
   setFormData,
   onSubmit,
   buttonText,
-  isBtnDisabled,
+  isBtnDisabled
+
 }) {
   function renderInputsByComponentType(getControlItem) {
     let element = null;
